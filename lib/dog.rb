@@ -10,7 +10,11 @@ class Dog
     @@all << self
   end
   
-  def self.print_all(element)
+  def self.all
+    @@all
+  end
+  
+  def .print_all(element)
     @@all.each do |element| 
       @@all << element
       puts @@all
