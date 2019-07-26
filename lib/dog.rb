@@ -18,6 +18,5 @@ class Dog
     @@all.each do |element| 
       @@all << element
       puts @@all
-  end
 end
 end
