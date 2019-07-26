@@ -14,9 +14,10 @@ class Dog
     @@all
   end
   
-  def .print_all(element)
+  def print_all(element)
     @@all.each do |element| 
       @@all << element
       puts @@all
   end
+end
 end
